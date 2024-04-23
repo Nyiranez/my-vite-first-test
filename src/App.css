@@ -12,8 +12,10 @@
   justify-content: center;
   padding-left: 8px;
   border-radius: 8px;
-  border-width: 8px;
-  /* border-color: blue */
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+
 }
 
 .par{
@@ -49,7 +51,8 @@
   padding-top:1rem ;
   padding-right:1rem ;
   border-radius: 8px;
-  border-width: 8px;
+  border-width: 1px;
   border-color: grey;
+  border-style: solid;
 }
 
