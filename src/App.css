@@ -11,6 +11,9 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 8px;
+  border-radius: 8px;
+  border-width: 8px;
+  /* border-color: blue */
 }
 
 .par{
@@ -36,5 +39,17 @@
 .bodynav{
   padding-left: 2rem;
   padding-top: 2rem;
+  background-color: rgb(190, 190, 80);
+  width: 100%;
+  margin-top: 1rem;
+}
+.main{
+  background-color: rgb(202, 184, 218);
+  padding-left:1rem ;
+  padding-top:1rem ;
+  padding-right:1rem ;
+  border-radius: 8px;
+  border-width: 8px;
+  border-color: grey;
 }
 
