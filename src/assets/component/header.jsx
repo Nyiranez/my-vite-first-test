@@ -6,6 +6,7 @@ export const Header = () => {
     <div>
         <div className='header'>
          <p className='par'>Marie Louise</p>
+         {/* <button>Login</button> */}
         </div>
     </div>
   )

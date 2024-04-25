@@ -1,36 +1,23 @@
-
-import './App.css'
-import { Home } from './assets/pages/home';
-import { Contact } from './assets/pages/contact';
-import { AboutUs } from './assets/pages/aboutUs';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Header } from './assets/component/header';
-import { Nav } from './assets/component/nav';
+import './App.css';
+import { Login } from './assets/pages/login';
+import { SignUp } from './assets/pages/signup';
+import Dashboard from './Dashboard';
+
 function App() {
 
 
   return (
     < >
-    <div className='main'>
-    <BrowserRouter>
-    
-    <Header />
-    <div className='container2'>
-      <Nav />
-      <div className='bodynav'>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/AboutUs" element={<AboutUs />}></Route>
-      </Routes>
+      <div className='main'>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/dashboard/*" element={<Dashboard />} />
+          </Routes>
+        </BrowserRouter>
       </div>
-      
-    </div>
-
-  </BrowserRouter>
-    </div>
-     
     </>
   )
 }

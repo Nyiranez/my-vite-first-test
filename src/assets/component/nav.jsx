@@ -4,9 +4,9 @@ export const Nav = () => {
   return (
     <div>
         <div className='navigation'>
-           <button><Link to="/home">Home</Link></button> 
-           <button><Link to="/contact">Contact me</Link></button>
-           <button><Link to="/aboutUs">About Me</Link></button>
+           <button><Link to="/dashboard/">Home</Link></button> 
+           <button><Link to="/dashboard/contact">Contact me</Link></button>
+           <button><Link to="/dashboard/aboutUs">About Me</Link></button>
         </div>
     </div>
   )
